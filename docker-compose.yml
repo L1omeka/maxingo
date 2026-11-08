@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  maxingo-bot:
+    build: .
+    container_name: maxingo_bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./tasks.json:/app/tasks.json
+      - ./users.json:/app/users.json
+      - ./maxingo.log:/app/maxingo.log
