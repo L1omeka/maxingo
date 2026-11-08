@@ -16,8 +16,8 @@
 ## ⚙️ Настройка конфигурации
 1. Склонируйте репозиторий или перейдите в папку проекта:
    ```bash
-   git clone <URL_ВАШЕГО_РЕПОЗИТОРИЯ>
-   cd maxbot
+   git clone https://github.com/L1omeka/maxingo
+   cd maxingo
    ```
 2. Создайте файл `.env` на основе шаблона `.env.example`:
    - В Linux / macOS:
